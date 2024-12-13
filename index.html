@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>PDF Upload and Analysis</title>
+</head>
+<body>
+<h1>Upload a .PDF contract for Analysis</h1>
+<input type="file" id="file-input" accept=".pdf" hidden>
+<label for="file-input" style="cursor: pointer; color: #007BFF;">Click here to select a PDF</label>
+<div id="drop-zone">Or drag and drop your PDF here</div>
+<div id="message"></div>
+<script src="index.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.16.105/pdf.min.js"></script>
+</body>
+</html>

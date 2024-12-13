@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    text-align: center;
+}
+#drop-zone {
+    width: 100%;
+    max-width: 400px;
+    height: 150px;
+    margin: 20px auto;
+    border: 2px dashed #ccc;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #aaa;
+    line-height: 1.5;
+}
+#drop-zone.dragover {
+    border-color: #007BFF;
+    color: #007BFF;
+}
